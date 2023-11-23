@@ -1,13 +1,15 @@
 {
   "name": "basic-sql-query-builder-orm-framework",
   "version": "1.0.0",
-  "description": "",
+  "description": "A basic SQL Query Builder ORM Framework. ",
   "main": "src/index.js",
-
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test/test.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sqlstring": "^2.3.3"
+  }
 }

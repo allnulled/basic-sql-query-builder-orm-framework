@@ -1,10 +1,10 @@
 (function (loader) {
     const mod = loader();
     if (typeof window !== "undefined") {
-        window.SqlQueriesOrm = mod;
+        window.basicsqlquerybuilderormframework = mod;
     }
     if (typeof global !== "undefined") {
-        global.SqlQueriesOrm = mod;
+        global.basicsqlquerybuilderormframework = mod;
     }
     if (typeof module !== "undefined") {
         module.exports = mod;
@@ -231,6 +231,7 @@
               if(index !== 0) {
                 sql += ", ";
               }
+              sql += "\n   ";
               sql += sqlstring.escapeId(column);
             }
             sql += ")";
@@ -241,6 +242,7 @@
               if(index !== 0) {
                 sql += ", ";
               }
+              sql += "\n   ";
               sql += sqlstring.escape(value);
             }
             sql += ")";
@@ -281,6 +283,7 @@
               if(index !== 0) {
                 sql += ", ";
               }
+              sql += "\n   ";
               sql += sqlstring.escapeId(column);
               sql += " = ";
               sql += sqlstring.escape(value);
@@ -300,9 +303,11 @@
         }
         table(table) {
             this._table = table;
+            return this;
         }
         where(where) {
             this._where = where;
+            return this;
         }
         toString() {
             let sql = "";
