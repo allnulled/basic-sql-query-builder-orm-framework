@@ -1,6 +1,6 @@
 {
   "name": "basic-sql-query-builder-orm-framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A basic SQL Query Builder ORM Framework. ",
   "main": "src/index.js",
   "scripts": {

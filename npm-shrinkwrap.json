@@ -1,12 +1,12 @@
 {
   "name": "basic-sql-query-builder-orm-framework",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "basic-sql-query-builder-orm-framework",
-      "version": "1.0.1",
+      "version": "1.0.2",
       "license": "WTFPL",
       "dependencies": {
         "sqlstring": "^2.3.3"
