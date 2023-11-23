@@ -9,9 +9,6 @@
   "keywords": [],
   "author": "allnulled",
   "license": "WTFPL",
-  "devDependencies": {
-    "sqlstring": "^2.3.3"
-  },
   "directories": {
     "test": "test"
   },
@@ -22,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/allnulled/basic-sql-query-builder-orm-framework/issues"
   },
-  "homepage": "https://github.com/allnulled/basic-sql-query-builder-orm-framework#readme"
+  "homepage": "https://github.com/allnulled/basic-sql-query-builder-orm-framework#readme",
+  "dependencies": {
+    "sqlstring": "^2.3.3"
+  }
 }

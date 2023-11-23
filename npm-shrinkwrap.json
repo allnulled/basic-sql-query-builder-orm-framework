@@ -1,14 +1,14 @@
 {
   "name": "basic-sql-query-builder-orm-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "lockfileVersion": 3,
   "requires": true,
   "packages": {
     "": {
       "name": "basic-sql-query-builder-orm-framework",
-      "version": "1.0.0",
-      "license": "ISC",
-      "devDependencies": {
+      "version": "1.0.1",
+      "license": "WTFPL",
+      "dependencies": {
         "sqlstring": "^2.3.3"
       }
     },
@@ -16,7 +16,6 @@
       "version": "2.3.3",
       "resolved": "https://registry.npmjs.org/sqlstring/-/sqlstring-2.3.3.tgz",
       "integrity": "sha512-qC9iz2FlN7DQl3+wjwn3802RTyjCx7sDvfQEXchwa6CWOx07/WVfh91gBmQ9fahw8snwGEWU3xGzOt4tFyHLxg==",
-      "dev": true,
       "engines": {
         "node": ">= 0.6"
       }
