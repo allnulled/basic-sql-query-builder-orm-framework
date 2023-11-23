@@ -1,15 +1,26 @@
 {
   "name": "basic-sql-query-builder-orm-framework",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A basic SQL Query Builder ORM Framework. ",
   "main": "src/index.js",
   "scripts": {
     "test": "node test/test.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "allnulled",
+  "license": "WTFPL",
   "devDependencies": {
     "sqlstring": "^2.3.3"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/allnulled/basic-sql-query-builder-orm-framework.git"
+  },
+  "bugs": {
+    "url": "https://github.com/allnulled/basic-sql-query-builder-orm-framework/issues"
+  },
+  "homepage": "https://github.com/allnulled/basic-sql-query-builder-orm-framework#readme"
 }
