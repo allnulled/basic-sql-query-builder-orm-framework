@@ -6,7 +6,8 @@ console.log(
         .table("Usuario")
         .where([
             ["id", "=", 1],
-            ["id", "!=", 2]
+            ["id", "!=", 2],
+            ["id", "NOT IN", [2,3,4,5,6,7,8,9]]
         ])
         .orderBy([["id","DESC"],["name", "ASC"]])
         .page(1)

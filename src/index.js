@@ -55,11 +55,15 @@
                         if (!Array.isArray(obj)) {
                             throw new Error("Se requiere parámetro «where» índice «" + index + "» subíndice «objeto» ser un array en función «Select.toString»");
                         }
+                        sql += " (";
                         for (let subindex = 0; subindex < obj.length; subindex++) {
                             const item = obj[subindex];
-                            sql += " ";
+                            if(subindex !== 0) {
+                                sql += ", ";
+                            }
                             sql += sqlstring.escape(item);
                         }
+                        sql += ")";
                     } else {
                         sql += " ";
                         sql += sqlstring.escape(obj);
